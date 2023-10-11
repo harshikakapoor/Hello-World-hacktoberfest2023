@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main() {
+printf("Hello World");
+return 0;
+}
+
+#include <iostream>
+int main() {
+	std::cout << "Hello World";
+	return 0;
+}
+
+IDENTIFICATION DIVISION.
+PROGRAM-ID. Hello-world.
+PROCEDURE DIVISION.
+    DISPLAY "Hello World".
+
+object HelloWorld extends App {
+	printIn("Hello World")
+}
+
+disp('Hello World');
+
+namespace HelloWorld
+{
+	class Hello {		 
+		static void Main(string[] args)
+		{
+			System.Console.WriteLine("Hello World");
+		}
+	}
+}
+
+program HelloWorld;
+begin
+  WriteLn('Hello World');
+end.
+
+puts 'Hello World'
+
+print("Hello World")
+
+fun main(args: Array<String>){
+	println("Hello World")
+}
